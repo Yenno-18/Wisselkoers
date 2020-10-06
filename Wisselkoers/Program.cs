@@ -28,6 +28,8 @@ namespace Wisselkoers
             //Resultaat tonen
             Console.WriteLine(dblBedragEUR.ToString() + " EUR is gelijk aan " + Math.Round(dblBedragUSD, 2).ToString() + " USD");
             Console.ReadLine();
+
+            //wachten...
          }
     }
 }
